@@ -1,0 +1,12 @@
+[package]
+name = "fast-generated-dct"
+version = "0.1.0"
+authors = ["autergame"]
+
+[profile.dev]
+opt-level = 3
+strip = true
+debug = false
+incremental = false
+overflow-checks = false
+debug-assertions = false
